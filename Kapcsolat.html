@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Kapcsolat.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kapcsolatfelvétel</h1>
+        <p>Nyugodtan lépjen kapcsolatba velünk, és mi válaszolunk Önnek amint tudunk.</p>
+        <form action="mail.php" method="POST">
+            <label for="name">Név:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="subject">Tárgy:</label>
+            <input type="text" name="subject" id="subject">
+            <label for="message">Üzenet:</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
+
+
